@@ -1,0 +1,22 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.5",
+    "i": "^0.3.7",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.0",
+    "node-rdkafka": "^2.13.0",
+    "npm": "^8.19.1"
+  }
+}
